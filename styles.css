@@ -55,3 +55,7 @@ body {
     margin: 0 1rem;
     width: 70%;
 }
+
+.done {
+    text-decoration: line-through;
+}
