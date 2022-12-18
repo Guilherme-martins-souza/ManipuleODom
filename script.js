@@ -17,7 +17,7 @@ botao.addEventListener('click', (evento) =>{
     // criando um elemento LI
     const itemLista = document.createElement('li');
     // criando um elemento P para adicionarmos dentro da LI
-    const alteracao = `<p class="tarefas">${inputTexto.value}</p> <button>arroz</button`
+    const alteracao = `<p class="tarefas">${inputTexto.value}</p> <button class="btn-excluir">X</button>`
 
     // adicionando o elemento P dentro da LI
     itemLista.innerHTML = alteracao;
