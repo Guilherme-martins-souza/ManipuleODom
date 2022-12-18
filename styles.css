@@ -1,0 +1,55 @@
+:root{
+    --branco-fraco: #fefefe ;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: #7c7575;
+}
+
+.caixa-centro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    min-height: 400px;
+    background-color: rgb(71, 62, 62);
+    padding: 1rem;
+}
+
+.formulario{
+    display: flex;
+    width: 100%;
+    background-color: var(--branco-fraco);
+}
+
+.texto{
+    width: 70%;
+    padding: 1rem;
+    background-color: var(--branco-fraco);
+}
+
+.btn-nova-tarefa{
+    width: 30%;
+    padding: 1rem;
+    background-color: var(--branco-fraco);
+    cursor: pointer;
+    
+}
+
+.lista-pai{
+    width: 100%;
+}
+
+.tarefas{
+    background-color: var(--branco-fraco);
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+.tarefas p{
+    margin: 0 1rem;
+}
